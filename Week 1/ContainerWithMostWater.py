@@ -11,7 +11,7 @@ class Solution:
                 #need the min height to see which one is shorter
         return maxArea
 
-#Time: O(n^2) - #O(n(n-1)/2)
+#Time: O(n^2) -> #O(n(n-1)/2)
 #Space: O(1)      
 
 #Approach 2: Two Pointer Approach
