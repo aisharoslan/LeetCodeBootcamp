@@ -6,7 +6,7 @@
 #         self.next = None
 #Approach 1: Fast & Slow Pointers (BEST)
 class Solution:
-    def hasCycle(self, head: Optional[ListNode]) -> bool:
+    def hasCycle(self, head) -> bool:
         if head is None: #edge case if head is empty
             return False
             
@@ -25,7 +25,7 @@ class Solution:
 
 #Approach 2: Hashing (Time: O(n), Space: O(n))
 class Solution:
-    def hasCycle(self, head: Optional[ListNode]) -> bool:
+    def hasCycle(self, head) -> bool:
         seen = set()
         while head:
             if head in seen:
