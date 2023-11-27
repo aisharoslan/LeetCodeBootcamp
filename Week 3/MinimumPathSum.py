@@ -3,7 +3,7 @@
 # Approach 1: Brute Force
 # Recursion - for each elem, consider 2 paths - right and down - find min sum out of the two
 class Solution:
-    def minPathSum(self, grid: List[List[int]]) -> int:
+    def minPathSum(self, grid: list[list[int]]) -> int:
         def calculate(grid, i, j):
             if i == len(grid) or j == len(grid[0]):
                 return float('inf')
