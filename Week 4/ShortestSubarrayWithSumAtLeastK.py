@@ -24,7 +24,7 @@ class Solution:
         return min_length if min_length <= len(nums) else -1
 
 #Approach 2: Monoqueue (Time: O(n), Space: O(n))
-class Solution(object):
+class Solution:
     def shortestSubarray(self, nums: list[int], k: int) -> int:
         prefix_sum = [0]
         for elem in nums:
